@@ -1,0 +1,26 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>An HTML form with checkboxes</title>
+	</head>
+	<body>
+	<form action="send_formcbox.php" method="post">
+		<p><label>Name:</label><br>
+		<input type="text" name="user" placeholder="Name Here"></p>
+		<fieldset>
+			<legend>Select Some Products:</legend><br>
+			<input type="checkbox" name="products[]" value="Tricorder" id="tricorder">
+			<label for="Tricorder">Tricorder</label><br>
+
+			<input type="checkbox" id="ORAC_AI" name="products[]" value="ORAC_AI"><label for="ORAC_AI">ORAC_AI</label><br> 
+			<input type="checkbox" name="products[]" id="HAL_2000" value="HAL_2000"><label for="HAL_2000">HAL_2000</label>
+		</fieldset>
+		<button type="submit" name="submit" value="submit">Submit Form</button>
+	</form>
+	</body>
+	</html>
+
+
+
+
